@@ -1,0 +1,75 @@
+
+fade-in-image { animation: fadeIn 10s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  img {
+    border-radius: 10px;
+    width: 80% ;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;  
+  }
+
+  h1 {
+   font-size: 3em;
+   color: yellow;
+   text-align: center;
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body {
+   background-color: #060CE9;
+   position:fixed;
+   top:0px;
+   bottom:0px;
+   left:0px;
+   right:0px;
+}
+
+.logo {
+   position: fixed;
+   height: 99%;
+   width: 99%;
+   text-align: center;
+}
+
+.container {
+   display: grid;
+   padding: 50px;
+   grid: repeat(6, 15%) / auto-flow;
+   height: 100vh;
+   text-align: center;
+ }
+ 
+.row {
+   display: grid;
+   grid: repeat(1, 100%) / auto-flow;
+   text-align: justify;
+}
+ 
+.row > .square {
+   background: y;
+   border: 5px solid black;
+   text-align: center;
+   color: yellow;
+   font-size: 3em;
+}
+
+img:hover {
+   opacity: 0.85;
+}
+
+.category {
+   font-size: .5em;
+   padding: 5%;
+}
+
+a {
+   text-decoration: none;
+   color: yellow;
+}
+
