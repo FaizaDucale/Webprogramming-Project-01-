@@ -1,29 +1,27 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>login</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+<meta charset="UTF-8">
+<title>Jeopardy!</title>
+<link href="gamestyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
- <div class="wrapper">
- 	<div class="heading">
- 		<h1>Login</h1>
- 	</div>
-	<div class="form">
- 		<form>
- 			<span>
- 				<i class="fa fa-user"></i>
- 				<input type="text" placeholder="Username" name="">
- 			</span><br>
- 			<span>
-                <i class="fa-solid fa-lock"></i>
- 				<input type="password" placeholder="Password" name="">
- 			</span><br>
-             <button> <a href="board.php" target="_blank">login</a> </button>
-		</form>
-	</div>
- 	</div>
- </div>
-</body>
+<h1> Login now </h1>
+ <div id="home-login"> 
+   <form action="loginhome.php" method="get">       
+        <input type="text" name="username" maxlength="30" size="25" placeholder="Username" required>
+        <br>
+        
+        <input type="password" name="password" maxlength="15" size="25" placeholder="Password"  required>
+        <br>
+   
+        <button id="back-button">Back</button>
+        <input type="submit" value="Login">
+      </form>
+  </div>
+  
+  </body>
 </html>
