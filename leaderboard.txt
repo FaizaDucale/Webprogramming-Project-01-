@@ -1,0 +1,6 @@
+
+Faiza,1400;
+Fay, 1000;
+Bot,200;
+,200;
+Faiza Ducale ,600;
